@@ -1,5 +1,6 @@
 #about{
     margin: 0px;
+    background-color: #3b3f49;
 }
 
 .title{
@@ -16,7 +17,7 @@
 }
 
 .title:hover {
-    text-shadow: 0 10px 10px grey;
+    text-shadow: 0 10px 10px black;
     color: black;
 }
 
@@ -32,7 +33,7 @@ h2 {
 }
 
 h2:hover {
-    text-shadow: 0 3px 3px grey;
+    text-shadow: 0 3px 3px black;
 
 }
 
@@ -40,7 +41,7 @@ h3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 19px;
     float: right;
-    margin-right: 550px;
+    margin-right: 20vw;
     margin-top: 0px;
 }
 

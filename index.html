@@ -1,95 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ethan Wright Portfolio</title>
-    <link rel="stylesheet" href="CSS/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow-x:hidden;        
-        }
-        html{
-            scroll-behavior: smooth;
-        }
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #3b3f49;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-<div id="home">
-    <navbar>
+  <body>
+    <div id="preloader">
+      <div class="loaderHeader">LOADING...</div>
+      <div class="spinner"></div>
+      <div class="diag-one"></div>
+      <div class="diag-two"></div>
+    </div>
+    <div id="home">
+      <navbar>
         <div class="navcontainer">
-
-            <h1 class="logo">E M <span style="transform: rotate(45deg);">M</span></h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#assets">Assets</a></li>
-                    <li><a href="#current">Current Works</a></li>
-                    <li><a href="#contact">Contact/Social Media</a></li>
-                </ul>
-            </nav>
+          <h1 class="logo">E M W</h1>
+          <nav>
+            <ul class="navToggle" id="navbar">
+              <li><a href="#home" class="menuItem" id="menuOpen1">Home</a></li>
+              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li>
+                <a href="#about" class="menuItem" id="menuOpen2">About</a>
+              </li>
+              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li>
+                <a href="#assets" class="menuItem" id="menuOpen3">Assets</a>
+              </li>
+              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li>
+                <a href="#currentWorks" class="menuItem" id="menuOpen4"
+                  >Current Works</a
+                >
+              </li>
+              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li>
+                <a href="#contact" class="menuItem" id="menuOpen5"
+                  >Contact/Social Media</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <li>
+            <button class="expand" id="expandButton">
+              <img
+                src="./assets/drop-down-arrow.svg"
+                class="closed"
+                id="menuArrow"
+              />
+            </button>
+          </li>
         </div>
-    </navbar>
+      </navbar>
 
-    <div class="parallaxcontainer">
+      <div class="parallaxcontainer">
         <div class="parallax">
-            <h1 class="h1" style="font-weight: lighter">Ethan Wright</h1>
-            <p style="font-weight:normal">Junior Developer <span style="color: black">//</span><span style="font-size: 56px"> Graphic Artist</span></p>
+          <h1 class="h1" style="font-weight: lighter; width: 100%;">
+            Ethan Wright
+          </h1>
+          <p
+            style="width: 100%; color: white; margin-top: -30px; font-size: 32px;"
+          >
+            Full Stack Developer
+            <span style="color: #353638; font-weight: bold;">//</span
+            ><span> Graphic Artist </span
+            ><span style="color: #353638; font-weight: bold">//</span> Lefty in
+            a world for righties
+          </p>
         </div>
+      </div>
     </div>
-    </div>
-</body>
-<div id="about">
-    <div class="words">
-    <h1 class="title">hello.</h1>
-    <h2>I'm Ethan.</h2>
-    <h3>(nice to meet you.)</h3>
-</div>
-    <div class="pictures">
+    <div id="about">
+      <div class="words">
+        <h1 class="title">hello.</h1>
+        <h2>I'm Ethan.</h2>
+        <h3>(nice to meet you.)</h3>
+      </div>
+      <div class="pictures">
         <div class="aboutMePic">
-            <img src="assets/ZWS_5330_Square.jpg">
+          <img src="assets/ZWS_5330_Square.jpg" />
         </div>
-    <div class="aboutMeDesc">
-        <div class="desc1">
-            <img src="assets/pc-computer-with-monitor.svg">
-            <p>In my spare time I experiment with cutting-edge hardware and build top-tier desktop computers.</p>
+        <div class="aboutMeDesc">
+          <div class="desc1">
+            <img src="assets/pc-computer-with-monitor.svg" />
+            <p>
+              In my spare time I experiment with cutting-edge hardware and build
+              top-tier desktop computers. I also love learning about Augmented
+              and Virtual Reality.
+            </p>
+          </div>
+          <div class="desc2">
+            <img src="assets/college-graduation.svg" />
+            <p>
+              I love being a part of the learning process. For the past several
+              years I have served as a highschool music teacher while studying
+              at Eleven Fifty Academy.
+            </p>
+          </div>
+          <div class="desc3">
+            <img src="assets/musical-note.svg" />
+            <p>
+              As mentioned, I have a deep love for music and the arts. I have
+              traveled the country coast to coast performing for hundreds of
+              thousands of fans; as well as performing with the Indianapolis
+              Colts Drumline.
+            </p>
+          </div>
         </div>
-        <div class="desc2">
-            <img src="assets/college-graduation.svg">
-            <p>I love being part of the learning process. For the past several years I have served as a highschool music
-                teacher while studing at Eleven Fifty Academy.</p>
-        </div>
-        <div class="desc3">
-            <img src="assets/musical-note.svg">
-            <p>As mentioned, I have a deep love for music and the arts. I have traveled the country coast to coast
-                performing for hundreds of thousands.</p>
-        </div>
+      </div>
     </div>
-</div>
-</div>
-<div class="transparallaxcontainer">
-    <div class="transparallax">
+    <div class="transparallaxcontainer">
+      <div class="transparallax"></div>
     </div>
-</div>
-<div id="assets">
-    <h1 class="title">What <span style="color: #ea8f33">I</span> Offer</h1>
-    <div class="assetsIcons">
-    <div class="item1"><img src="assets/html5.svg"><p>HTML5</p></div>
-    <div class="item2"><img src="assets/css-3.svg"><p>CSS3</p></div>
-    <div class="item3"><img src="assets/javascript.svg"><p>JavaScript</p></div>
-    <div class="item4"><img src="assets/github-logo.svg"><p>Git</p></div>    
-</div>
-</div>
-<div class="transparallaxcontainer">
-        <div class="transparallax">
+    <div id="assets">
+      <h1 class="title">What <span style="color: #96bc99">I</span> Offer</h1>
+      <div class="assetsIcons">
+        <div class="item1">
+          <img src="assets/html5.svg" />
+          <p>HTML5</p>
         </div>
+        <div class="item2">
+          <img src="assets/css-3.svg" />
+          <p>CSS3</p>
+        </div>
+        <div class="item3">
+          <img src="assets/javascript.svg" />
+          <p>JavaScript</p>
+        </div>
+        <div class="item4">
+          <img src="assets/github-logo.svg" />
+          <p>Git</p>
+        </div>
+      </div>
+    </div>
+    <div class="transparallaxcontainer">
+      <div class="transparallax"></div>
+    </div>
+    <div id="currentworks">
+      <div class="carousel-container">
+        <img
+          src="./assets/arrow-point-to-right.svg"
+          style="transform: rotateY(180deg);"
+          id="prevBtn"
+        />
+        <img src="./assets/arrow-point-to-right.svg" id="nextBtn" />
+        <div class="carousel-slide">
+          <img src="./assets/city.webp" id="lastClone" alt="" />
+          <img src="./assets/city.webp" id="one" alt="" />
+          <img src="./assets/city.webp" id="two" alt="" />
+          <img src="./assets/city.webp" id="three" alt="" />
+          <img src="./assets/city.webp" id="four" alt="" />
+          <img src="./assets/city.webp" id="fiv" alt="" />
+          <img src="./assets/city.webp" id="firstClone" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="transparallaxcontainer">
+      <div class="transparallax"></div>
+    </div>
+    <div id="contact"></div>
+  </body>
+  <script src="./JS/expand.js"></script>
+  <script src="./JS/carousel.js"></script>
+  <script src="./JS/preloader.js"></script>
 </html>
