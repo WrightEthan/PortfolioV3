@@ -1,6 +1,8 @@
 #about{
     margin: 0px;
-    background-color: #3b3f49;
+    background-color: white;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .title{
@@ -82,23 +84,21 @@ h3 {
     margin-right: 28px;
 }
 
-.desc1 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    height: 350px;
-    border-right: 1px solid black;
-
+.aboutMeTable {
+    margin-top: 12vh;
+    width: 70vw;
+    margin-left: 20vw;
 }
 
-.desc2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 200px;
-    border-right: 1px solid black;
-    height: 375px;
+.icon1, .icon2, .icon3 {
+    height: 15vh;
+    width: 15vw;
+    
 }
 
-.desc3 {
-    margin-top: 350px;
+td {
+    outline: 1px solid black;
+    width: 40vw;
+    font-size: 20px;
 }
+

@@ -1,5 +1,5 @@
 .carousel-container {
-    width: 60%;
+    width: 400px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -7,7 +7,7 @@
 }
 .carousel-slide {
     display: flex;
-    width: 80%;
+    width: 300px;
     height: 350px;
 }
 #prevBtn {
