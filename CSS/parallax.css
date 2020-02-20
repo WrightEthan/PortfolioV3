@@ -5,7 +5,6 @@
     font-size: 4vw;
     /* font-family: 'Quicksand', sans-serif; */
     font-family: 'Amatic SC', cursive;
-    position: relative;
     z-index: -1;
     width: 100vw;
 }
