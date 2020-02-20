@@ -14,7 +14,7 @@
     background: linear-gradient(to bottom, rgba(60,61,61,.5), rgba(60,61,61,.0)), url('../assets/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 27vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

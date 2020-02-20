@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ethan Wright Portfolio</title>
-    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
       rel="stylesheet"
@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <style>
       body {
@@ -42,21 +43,21 @@
           <nav>
             <ul class="navToggle" id="navbar">
               <li><a href="#home" class="menuItem" id="menuOpen1">Home</a></li>
-              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li style="font-weight: bold; font-size: 1vw;">|</li>
               <li>
                 <a href="#about" class="menuItem" id="menuOpen2">About</a>
               </li>
-              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li style="font-weight: bold; font-size: 1vw;">|</li>
               <li>
                 <a href="#assets" class="menuItem" id="menuOpen3">Assets</a>
               </li>
-              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li style="font-weight: bold; font-size: 1vw;">|</li>
               <li>
                 <a href="#currentWorks" class="menuItem" id="menuOpen4"
                   >Current Works</a
                 >
               </li>
-              <li style="font-weight: bold; font-size: 20px;">|</li>
+              <li style="font-weight: bold; font-size: 1vw;">|</li>
               <li>
                 <a href="#contact" class="menuItem" id="menuOpen5"
                   >Contact/Social Media</a
@@ -78,11 +79,11 @@
 
       <div class="parallaxcontainer">
         <div class="parallax">
-          <h1 class="h1" style="font-weight: lighter; width: 100%;">
+          <p class="myName" style="font-weight: lighter; width: 100%;">
             Ethan Wright
-          </h1>
+          </p>
           <p
-            style="width: 100%; color: white; margin-top: -30px; font-size: 32px;"
+            style="width: 100%; color: white; margin-top: -30px; font-size: 4vw;"
           >
             Full Stack Developer
             <span style="color: #353638; font-weight: bold;">//</span
@@ -96,12 +97,12 @@
     <div id="about">
       <div class="words">
         <h1 class="title">hello.</h1>
-        <h2>I'm Ethan.</h2>
+        <p class="imEthan">I'm Ethan.</p>
         <h3>(nice to meet you.)</h3>
       </div>
 
         <div class="aboutMePic">
-          <img src="assets/ZWS_5330_Square.jpg" />
+          <img src="./assets/ZWS_5330_Square.jpg" />
         </div>
         <table class="aboutMeTable">
           <tr>
@@ -109,7 +110,7 @@
               <img src="./assets/pc-computer-with-monitor.svg" class="icon1">
             </th>
               <td>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur nulla velit a exercitationem. Enim alias officiis nostrum voluptatibus, iure totam eius numquam autem non voluptatem expedita! Adipisci, quam itaque!
+                I love tech! I have been a PC builder and enthusiast for a few years.
               </td>
           </tr>
           <tr>
@@ -117,7 +118,7 @@
               <img src="./assets/college-graduation.svg" class="icon2">
             </th>
               <td>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur nulla velit a exercitationem. Enim alias officiis nostrum voluptatibus, iure totam eius numquam autem non voluptatem expedita! Adipisci, quam itaque!
+                I love the learning environment! While attending boot camps at Eleven Fifty Academy, I also teach several local high school band programs.
               </td>
           </tr>
           <tr>
@@ -125,7 +126,7 @@
               <img src="./assets/musical-note.svg" class="icon1">
             </th>
               <td>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur nulla velit a exercitationem. Enim alias officiis nostrum voluptatibus, iure totam eius numquam autem non voluptatem expedita! Adipisci, quam itaque!
+                In addition to teaching and performing music, I am a <br>High Fidelity Audio enthusiast.
               </td>
           </tr>
       </div>
@@ -137,87 +138,137 @@
       <h1 class="title">What <span style="color: #96bc99">I</span> Offer</h1>
       <div class="assetsIcons">
         <div class="item1">
-          <img src="assets/html5.svg" />
+          <img src="./assets/html5.svg" />
           <p>HTML5</p>
         </div>
         <div class="item2">
-          <img src="assets/css-3.svg" />
+          <img src="./assets/css-3.svg" />
           <p>CSS3</p>
         </div>
         <div class="item3">
-          <img src="assets/javascript.svg" />
+          <img src="./assets/javascript.svg" />
           <p>JavaScript</p>
         </div>
         <div class="item4">
-          <img src="assets/github-logo.svg" />
+          <img src="./assets/github-logo.svg" />
           <p>Git</p>
         </div>
+        <div class="item5">
+          <img src="./assets/leaf.svg" />
+          <p>Leaflet JS</p>
+        </div>
+        <div class="item6">
+          <img src="./assets/hashtag.svg" />
+          <p>C# and .NET</p>
+        </div>
       </div>
-    </div>
-    <div class="transparallaxcontainer">
-      <div class="transparallax"></div>
+      <p class="inAddition">
+        in addition to...<br>
+        Procreate Graphic Art, <br>Vector Image Creation, <br>Extensive Hardware Knowledge,<br> Creo Illustrate, Thingworx Studio...  
+      </p>
     </div>
     <div id="currentworks">
-      <div class="carousel-container">
-        <img
-          src="./assets/arrow-point-to-right.svg"
-          style="transform: rotateY(180deg);"
-          id="prevBtn"
-        />
-        <img src="./assets/arrow-point-to-right.svg" id="nextBtn" />
-        <div class="carousel-slide">
-          <img src="./assets/city.webp" id="lastClone" alt="" />
-          <img src="./assets/city.webp" id="one" alt="" />
-          <img src="./assets/city.webp" id="two" alt="" />
-          <img src="./assets/city.webp" id="three" alt="" />
-          <img src="./assets/city.webp" id="four" alt="" />
-          <img src="./assets/city.webp" id="fiv" alt="" />
-          <img src="./assets/city.webp" id="firstClone" alt="" />
-        </div>
-      </div>
-      <div class="secondViewHeight" id="store">
-        <div class="cardContainer">
-          <table class="card-table">
-            <tr>
-              <td>
-                <div class="card" id="card1">
-                  <img src="">
-                </div>
-              </td>
-              <td>
-                <div class="card" id="card2"></div>
-              </td>
-              <td>
-                <div class="card" id="card3"></div>
-              </td>
-              <td>
-                <div class="card" id="card4"></div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="card" id="card5"></div>
-              </td>
-              <td>
-                <div class="card" id="card6"></div>
-              </td>
-              <td>
-                <div class="card" id="card7"></div>
-              </td>
-              <td>
-                <div class="card" id="card8"></div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+      <div class="carouselWrapper">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/Screenshot (4).png" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CSS Codepen</h5>
+              <p>My first venture into Keyframes</p>
+            </div>
+          </div>          
+          <div class="carousel-item">
+            <img src="./assets/Screenshot (5).png" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+          </div>          
+          <div class="carousel-item">
+            <img src="./assets/Screenshot (7).png" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+          </div>        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>               
+    </div>
+      <div class="cardContainer">
+                <table class="card-table">
+                  <tr>
+                    <td>
+                      <div class="card" id="card1">
+                        <img src="./assets/image0.jpeg">
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card" id="card2">
+                        <img src="./assets/image1.jpeg"
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card" id="card3">
+                        <img src="./assets/image2.jpeg">
+                      </div>
+                    </td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+            <div class="secondViewHeight" id="store">
     </div>
     <div class="transparallaxcontainer">
       <div class="transparallax"></div>
     </div>
-    <div id="contact"></div>
+    <div id="contact">
+      <h1>Dig the code? Drop me a message!</h1>
+      <form
+      action="https://formspree.io/xnqvagad"
+      method="POST"
+    >
+      <label>
+        Your email:
+        <input type="text" name="_replyto">
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+    
+      <!-- your other form fields go here -->
+    
+      <button type="submit" class="messageMe">Send</button>
+    </form>
+    <div class="socialMedia">
+      <a href="https://www.linkedin.com/in/ethan-wright-1a0738188/"><img src="./assets/linkedin.svg"></a>
+      <a href="https://www.instagram.com/ethanmwright/"><img src="./assets/instagram.svg"></a>
+      <a href="https://github.com/WrightEthan"><img src="./assets/github.svg"></a>
+      
+    </div>
+    <p class="resume">(don't forget a resume on your way out!)</p>
+        <form method="get" action="./assets/Ethan Wright resume.pdf">
+          <button type="submit" class="resumeButton"><img src="./assets/profile.svg"></button>
+       </form>
+  </div>
   </body>
   <script src="./JS/expand.js"></script>
   <script src="./JS/carousel.js"></script>
   <script src="./JS/preloader.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

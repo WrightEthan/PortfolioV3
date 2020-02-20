@@ -23,10 +23,11 @@ navbar::after {
     margin: 15px 0 0 30px;
     padding: 5px;
     font-family: 'Quicksand', sans-serif;
-    border: solid 2px white;
+    border: solid 2px black;
     border-radius: 3px;
     font-weight: lighter;
-    color: white;
+    color: black;
+    font-size: 2vw;
 }
 li {
     list-style: none;
@@ -35,7 +36,7 @@ nav {
     float: right;
 }
 .navToggle {
-    margin: 10px;
+    margin: 1vw;
     margin-right: 70px;
     padding: 0;
     list-style: none;
@@ -47,7 +48,7 @@ nav {
 }
 .navToggleD {
     margin: 10px;
-    margin-right: 70px;
+    margin-right: 7vw;
     padding: 0;
     list-style: none;
     font-family: 'Quicksand', sans-serif;
@@ -66,14 +67,14 @@ nav li {
     color: rgba(0,0,0,0);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1vw;
     transition-duration: 300ms;
 }
 .menuItemExpanded {
-    color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1vw;
     transition-duration: 300ms;
 }
 nav a:hover {
@@ -85,13 +86,13 @@ nav a::before {
     display: block;
     height: 5px;
     width: 100%;
-    /* background: linear-gradient(to right,rgba(0, 0, 0,1),rgba(0, 0, 0,0)); */
+    background: black;
     border-radius: 10px;
     position: absolute;
     left: -5px;
     top: 6vh;
     width: 0%;
-    transition-duration: 200ms;
+    transition-duration: all ease-in-out 200ms;
 }
 nav a:hover::before {
     width: 130%;

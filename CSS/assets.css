@@ -1,6 +1,14 @@
 #assets {
     font-family: 'Quicksand', sans-serif;
-    font-size: 25px;    
+    font-size: 25px;
+    height: 60vh;   
+}
+
+.inAddition {
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+    font-size: 1.5vw
 }
 
 #assets h1{
@@ -8,46 +16,48 @@ text-align: center;
     color: black;
     font-family: 'Quicksand', sans-serif-;
     font-size: 120px;
-    padding: 0;
     width: 800px;
     margin: auto;
+    margin-top: 5vh;
+
 }
 
 .assetsIcons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 60px 0 60px;
+    margin: 7vh 60px 0 60px;
+    padding-bottom: 2vh;
 }
 
-.item1, .item2, .item3, .item4 {
+.item1, .item2, .item3, .item4, .item5, .item6 {
     text-align: center;
+    font-size: 1vw;
 }
 
-.item1 img, .item2 img, .item3 img, .item4 img{
+.item1 img, .item2 img, .item3 img, .item4 img, .item5 img, .item6 img{
     width: 10vw;
     height: 10vh;
 }
 
 .secondViewHeight {
-    height: 100vh;
-    width: 100vw;
     background-color: white;
     position: absolute;
 }
 .cardContainer {
-    height: 90vh;
+    height: 40vh;
     width: 90vw;
-    background-color: #2F3035;
-    margin-left: 4vw;
-    margin-top: 5vh;
     border-radius: 5px;
+    margin: auto;
 }
 .card-table {
-    height: 90vh;
-    width: 90vw;
+    height: 40vh;
+    width: 70vw;
     border-radius: 5px;
+    margin: auto;
+    margin-top: 20vh;
 }
+
 .card-table td tr{
     border: 1px solid white;
     height: 45vh;
@@ -57,31 +67,44 @@ text-align: center;
     border-radius: 5px;
 }
 .card {
-    height: calc(90vh/2);
+    height: calc(90vw/4);
     width: calc(90vw/4);
     background-color: #47494F;
     border-radius: 5px;
-    border: 1px solid #2F3035;
     overflow: hidden;
 }
-.card:hover {
+#card1 img:hover, #card2 img:hover, #card3 img:hover, #card4 img:hover, #card5 img:hover, #card6 img:hover, #card2 img:hover , #card2 img:hover {
     animation: expand .2s linear;
     animation-fill-mode: forwards;
+    
 }
+
+
 @keyframes expand {
     0% {
     }
     100% {
-        transform: translateX(-20px);
+        transform: translateX(-24px);
         height: 110%;
         width: 110%;
         z-index: 100;    
+        
     }
 }
 .card img {
     /* height: 100%; */
     width: 100%;
 }
-.card1 img {
-    height: 0%;
+#card1 img, #card2 img, #card3 img, #card4 img, #card5 img, #card6 img, #card7 img, #card8 img {
+    height: 100%;
+}
+
+#one, #two, #three {
+    height: 200px;
+    width: 200px;
+}
+
+.carouselWrapper {
+    width: 1400px;
+    margin: auto;
 }

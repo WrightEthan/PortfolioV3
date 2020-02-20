@@ -3,19 +3,18 @@
     background-color: white;
     height: 100vh;
     font-family: 'Quicksand', sans-serif;
+
 }
 
 .title{
     /* text-align: center; */
     font-family: 'Quicksand', sans-serif;
-    font-size: 220px;
+    font-size: 18vw;
     font-weight: lighter;
     color: black;
     transition: text-shadow .4s ease-out;
     padding: 0;
-    width: 525px;
-    height: 220px;
-    margin: 0px 0 0 400px;    
+    margin: 0px 0 0 20vw;    
 }
 
 .title:hover {
@@ -23,25 +22,24 @@
     color: black;
 }
 
-h2 {
+.imEthan {
     font-family: 'Quicksand', sans-serif;
-    font-size: 80px;
-    margin: 20px 0 0 850px;
+    font-size: 10vw;
+    margin: 20px 0 0 40vw;
     font-weight: lighter;
     color: #96bc99;
-    width: 375px;
     transition: text-shadow .4s ease-out;
 
 }
 
-h2:hover {
+imEthan:hover {
     text-shadow: 0 3px 3px black;
 
 }
 
 h3 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 19px;
+    font-size: 3vw;
     float: right;
     margin-right: 20vw;
     margin-top: 0px;
@@ -59,7 +57,7 @@ h3 {
     display: flex;
     flex-direction: row;
     /* outline: 1px solid black; */
-    margin: 20px 0 100px 0;
+    margin: 20px 0 0px 0;
 }
 
 .aboutMeDesc img{
@@ -97,8 +95,7 @@ h3 {
 }
 
 td {
-    outline: 1px solid black;
     width: 40vw;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
