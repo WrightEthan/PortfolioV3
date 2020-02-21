@@ -88,7 +88,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 100%;
-    background: black;
+    /* background: black; */
     border-radius: 10px;
     position: absolute;
     left: -5px;
