@@ -9,7 +9,7 @@
 .title{
     /* text-align: center; */
     font-family: 'Quicksand', sans-serif;
-    font-size: 18vw;
+    font-size: 12vw;
     font-weight: lighter;
     color: black;
     transition: text-shadow .4s ease-out;
@@ -24,7 +24,7 @@
 
 .imEthan {
     font-family: 'Quicksand', sans-serif;
-    font-size: 10vw;
+    font-size: 6vw;
     margin: 20px 0 0 40vw;
     font-weight: lighter;
     color: #96bc99;
@@ -37,9 +37,9 @@ imEthan:hover {
 
 }
 
-h3 {
+.description {
     font-family: 'Quicksand', sans-serif;
-    font-size: 3vw;
+    font-size: 1.5vw;
     float: right;
     margin-right: 20vw;
     margin-top: 0px;
@@ -99,5 +99,6 @@ h3 {
 td {
     width: 40vw;
     font-size: 1.5vw;
+    padding-bottom: 200px;
 }
 
