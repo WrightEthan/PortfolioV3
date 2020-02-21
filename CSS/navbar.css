@@ -80,6 +80,8 @@ nav li {
 nav a:hover {
     font-weight: bolder;
     transition-duration: 0ms;
+    text-decoration: none;
+    color: black;
 }
 nav a::before {
     content: '';
