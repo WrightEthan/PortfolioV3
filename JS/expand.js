@@ -5,7 +5,7 @@ var menuOpen3 = document.querySelector('#menuOpen3');
 var menuOpen4 = document.querySelector('#menuOpen4');
 var menuOpen5 = document.querySelector('#menuOpen5');
 expandButton.addEventListener('click', () => {
-    navbar.classList.toggle("navToggle");
+    console.log("hello world!");
     navbar.classList.toggle("navToggleD");
     menuArrow.classList.toggle("closed");
     menuArrow.classList.toggle("open");
